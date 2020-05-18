@@ -1,13 +1,17 @@
 .header-color {
-    background: #283c86;
-    background: -webkit-linear-gradient(to left, #45a247, #283c86);
-    background: linear-gradient(to left, #45a247, #283c86);
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .landing-grid {
-    background: #283c86;
-    background: -webkit-linear-gradient(to left, #45a247, #283c86);
-    background: linear-gradient(to left, #45a247, #283c86);
+    /* background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44); */
+
+    background-image: url(https://wallpaperaccess.com/full/1128799.jpg);
+    background-size: contain;
     text-align: center;
     position: fixed;
     top: 0;
@@ -20,6 +24,7 @@
     height: 250px;
     margin-top: 50px;
     border-radius: 1000px;
+    border: 1vh solid #404244;
 }
 
 .banner-text {
@@ -28,12 +33,14 @@
     width: 75%;
     margin: auto;
     border-radius: 10px;
+    font-family: monospace;
 }
 
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
     color: white;
+    font-family: monospace;
 }
 
 .banner-text hr {
@@ -51,7 +58,7 @@
 .social-links {
     display: flex;
     justify-content: space-between;
-    width: 25%;
+    width: 15%;
     margin: auto;
 }
 
@@ -106,4 +113,12 @@
 .contact-list i {
     font-size: 66px;
     padding-right: 5rem;
+}
+
+/* Resume Page */
+
+.resume-right-col {
+    background: #27221f;
+    color: white;
+    padding: 2em;
 }

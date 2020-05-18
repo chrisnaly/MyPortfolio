@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Cell, Grid } from 'react-mdl';
+import Typical from 'react-typical';
 
 class Home extends Component {
     render() {
@@ -14,7 +15,27 @@ class Home extends Component {
                         />
 
                         <div className="banner-text">
-                            <h1> Full Stack Web Developer </h1>
+                            {/* <h1> Full Stack Web Developer </h1> */}
+                            <h1>
+                                <Typical 
+                                    loop={Infinity}
+                                    wrapper="b"
+                                    steps={[
+                                        "Welcome!",
+                                        1000,
+                                        "Hi, I'm Chrisna Ly",
+                                        1000,
+                                        "I'm a Full Stack Developer 💻",
+                                        1000,
+                                        "I'm a Creator",
+                                        1000,
+                                        "I'm a Designer",
+                                        1000,
+                                        "I'm a student of life",
+                                        1000,
+                                    ]}
+                                />
+                            </h1>
 
                         <hr/>
 
