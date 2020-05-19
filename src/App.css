@@ -11,7 +11,8 @@ background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Fi
     background: linear-gradient(to right, #4286f4, #373B44); */
 
     background-image: url(https://wallpaperaccess.com/full/1128799.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     position: fixed;
     top: 0;
@@ -22,7 +23,7 @@ background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Fi
 
 .avatar-img {
     height: 250px;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 1000px;
     border: 1vh solid #404244;
 }
@@ -121,4 +122,14 @@ background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Fi
     background: #27221f;
     color: white;
     padding: 2em;
+}
+
+.header-color i {
+    font-size: 25px;
+}
+
+.aboutMe img {
+    height: 250px;
+    /* margin-top: 100px; */
+    border-radius: 1000px;
 }

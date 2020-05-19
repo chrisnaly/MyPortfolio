@@ -10,7 +10,7 @@ class About extends Component {
             <div>
                 <Grid>
                     <Cell col={4}>
-                        <div style={{textAlign: 'center'}}>
+                        <div style={{textAlign: 'center'}} className="aboutMe">
                             <img 
                             src="https://media-exp1.licdn.com/dms/image/C4E03AQFxa0XKhuFqfw/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=stFj4wEfV7G7UJ-MxzB-FQ4hs8t1ENCBQoFIzbbD9eU"
                             alt="avatar"
@@ -21,7 +21,7 @@ class About extends Component {
                         <h4 style={{color: 'grey'}}> Software Developer </h4>
                         <hr style={{borderTop: '3px solid #2a4183', width: '50%'}}/>
 
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Mamba Out.</p>
+                        <p>I’ve always sought out opportunities and challenges that are meaningful to me.</p>
                         <hr style={{borderTop: '3px solid #2a4183', width: '50%'}}/>
                         <h5> Phone </h5>
                         <p>(253) 904-6646 </p>
@@ -68,23 +68,43 @@ class About extends Component {
                         <h2>Skills</h2>
                         <Skills 
                             skill="JavaScript"
-                            progress={100}
+                            progress={80}
+                            status="80%"
                         />
                         <Skills 
                             skill="C#"
-                            progress={90}
+                            progress={75}
+                            status="75%"
                         />
                         <Skills 
                             skill="React"
-                            progress={100}
+                            progress={80}
+                            status="80%"
                         />
                         <Skills 
                             skill="Python"
                             progress={85}
+                            status="85%"
                         />
                         <Skills 
                             skill="HTML/CSS"
-                            progress={80}
+                            progress={85}
+                            status="85%"
+                        />
+                        <Skills 
+                            skill="MongoDB"
+                            progress={75}
+                            status="75%"
+                        />
+                        <Skills 
+                            skill="Node"
+                            progress={65}
+                            status="65%"
+                        />
+                        <Skills 
+                            skill="Express"
+                            progress={65}
+                            status="65%"
                         />
                     </Cell>
                 </Grid>

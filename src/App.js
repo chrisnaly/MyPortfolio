@@ -8,18 +8,17 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="Chrisna Ly" scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> <i class="fas fa-code" width="50"> Chrisna Ly </i> </Link>} scroll>
             <Navigation>
-                <Link to="/"> Home </Link>
+                {/* <Link to="/"><i class="fas fa-code" width="50"> Chrisna Ly </i> </Link> */}
                 <Link to="/aboutme"> About Me</Link>
                 <Link to="/resume"> Resume </Link>
                 <Link to="/projects"> Projects </Link>
                 <Link to="/contact"> Contact</Link>
             </Navigation>
         </Header>
-        <Drawer>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Home</Link>}>
             <Navigation>
-              <Link to="/"> Home </Link>
               <Link to="/aboutme"> About Me </Link>
               <Link to="/resume"> Resume </Link>
               <Link to="/projects"> Projects </Link>

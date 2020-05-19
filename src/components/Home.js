@@ -22,17 +22,17 @@ class Home extends Component {
                                     wrapper="b"
                                     steps={[
                                         "Welcome!",
-                                        1000,
+                                        1100,
                                         "Hi, I'm Chrisna Ly",
-                                        1000,
+                                        1100,
                                         "I'm a Full Stack Developer 💻",
-                                        1000,
+                                        1100,
                                         "I'm a Creator",
-                                        1000,
+                                        1100,
                                         "I'm a Designer",
-                                        1000,
+                                        1100,
                                         "I'm a student of life",
-                                        1000,
+                                        1100,
                                     ]}
                                 />
                             </h1>
