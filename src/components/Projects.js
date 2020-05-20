@@ -51,7 +51,7 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/chrisnaly/Hangman" target="_blank"> GitHub </Button>
-                            {/* <Button colored> GitHub </Button> */}
+                            <Button colored href="https://clybucket.s3-us-west-2.amazonaws.com/index.html" target="_blank"> Play </Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />

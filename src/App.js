@@ -12,7 +12,8 @@ function App() {
             <Navigation>
                 {/* <Link to="/"><i class="fas fa-code" width="50"> Chrisna Ly </i> </Link> */}
                 <Link to="/aboutme"> About Me</Link>
-                <Link to="/resume"> Resume </Link>
+                {/* <Link to="/resume"> Resume </Link> */}
+                <a target="_blank" href="https://drive.google.com/file/d/10xm7GsmJXhAvzcjXDiH7B_zi3StJXAK3/view?usp=sharing"> Resume </a>
                 <Link to="/projects"> Projects </Link>
                 <Link to="/contact"> Contact</Link>
             </Navigation>
