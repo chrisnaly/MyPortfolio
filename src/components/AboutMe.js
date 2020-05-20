@@ -30,42 +30,10 @@ class About extends Component {
                         <hr style={{borderTop: '3px solid #2a4183', width: '50%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                        <h2> Education </h2>
-                        
-                            <Education
-                                startYear={"Jan"}
-                                endYear={"May 2020"}
-                                schoolName={"Coding Dojo"}
-                                schoolDescription="• Accumulated 1,000+ hours of intensive programming course work including building, testing, and debugging on Django, ASP .Net, and MERN.
-                                • 200+ hours of Fullstack in-house development on web applications and other technical projects
-                                • Languages: Python, C#, JavaScript, HTML, CSS, SQL
-                                • Libraries/Frameworks/Tools: JQuery, Django, MongoDB, Express, React, Node.js, Mongoose, ASP.NET, .NET Core, Razor, Entity Framework Core, AJAX, JSON"
-                                />
-                            <Education 
-                                startYear={2011}
-                                endYear={2015}
-                                schoolName={"University of Washington"}
-                                schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                                />
+                    
+                    
 
-                            <hr style={{borderTop: '3px solid #2a4183'}} />
-                        <h2> Experience </h2>
-
-                            <Experience 
-                                startYear={2011}
-                                endYear={2015}
-                                jobName="First Job"
-                                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                                />
-                            
-                            <Experience 
-                                startYear={2011}
-                                endYear={2015}
-                                jobName="Second Job"
-                                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                                />
-                        <hr style={{borderTop: '3px solid #2a4183'}} />
-                        <h2>Skills</h2>
+                    <h2>Skills</h2>
                         <Skills 
                             skill="JavaScript"
                             progress={80}
@@ -106,6 +74,41 @@ class About extends Component {
                             progress={65}
                             status="65%"
                         />
+                        <hr style={{borderTop: '3px solid #2a4183'}} />
+                        <h2> Education </h2>
+                        
+                            <Education
+                                startYear={"Jan"}
+                                endYear={"May 2020"}
+                                schoolName={"Coding Dojo"}
+                                schoolDescription="• Accumulated 1,000+ hours of intensive programming course work including building, testing, and debugging on Django, ASP .Net, and MERN.
+                                • 200+ hours of Fullstack in-house development on web applications and other technical projects"
+                                />
+                            <Education 
+                                startYear={2011}
+                                endYear={2015}
+                                schoolName={"University of Washington"}
+                                schoolDescription="Bachelor of Science, CS"
+                                />
+
+                            <hr style={{borderTop: '3px solid #2a4183'}} />
+                        {/* <h2> Experience </h2>
+
+                            <Experience 
+                                startYear={2011}
+                                endYear={2015}
+                                jobName="First Job"
+                                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                                />
+                            
+                            <Experience 
+                                startYear={2011}
+                                endYear={2015}
+                                jobName="Second Job"
+                                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                                />
+                        <hr style={{borderTop: '3px solid #2a4183'}} /> */}
+
                     </Cell>
                 </Grid>
             </div>

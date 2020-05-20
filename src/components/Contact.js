@@ -40,6 +40,13 @@ class Contact extends Component {
                                         <a href="https://github.com/chrisnaly" rel="noopener noreferrer" target="_blank" style={{color: 'rgb(31, 35, 33)'}}> github.com/chrisnaly </a>
                                     </ListItemContent>
                                 </ListItem>
+                                
+                                <ListItem>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                        <i className="fab fa-linkedin" aria-hidden="true" />
+                                        <a href="https://www.linkedin.com/in/chrisna-ly/" rel="noopener noreferrer" target="_blank" style={{color: 'rgb(31, 35, 33)'}}> Connect with me! </a>
+                                    </ListItemContent>
+                                </ListItem>
                             </List>
                         </div>
                     </Cell>
