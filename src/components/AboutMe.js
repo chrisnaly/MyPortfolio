@@ -22,6 +22,7 @@ class About extends Component {
                         <hr style={{borderTop: '3px solid #2a4183', width: '50%'}}/>
 
                         <p>I’ve always sought out opportunities and challenges that are meaningful to me.</p>
+                        
                         <hr style={{borderTop: '3px solid #2a4183', width: '50%'}}/>
                         <h5> Phone </h5>
                         <p>(253) 904-6646 </p>

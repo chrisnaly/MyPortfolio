@@ -21,7 +21,7 @@ function App() {
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Home</Link>}>
             <Navigation>
               <Link to="/aboutme"> About Me </Link>
-              <Link to="/resume"> Resume </Link>
+              <a target="_blank" href="https://drive.google.com/file/d/10xm7GsmJXhAvzcjXDiH7B_zi3StJXAK3/view?usp=sharing"> Resume </a>
               <Link to="/projects"> Projects </Link>
               <Link to="/contact"> Contact</Link>
             </Navigation>
